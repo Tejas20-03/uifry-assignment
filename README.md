@@ -20,6 +20,18 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Design Choices and Libraries Used
+This project was designed based on a Figma file provided for an assignment. The design choices were made to ensure a user-friendly interface with a modern and clean look. The following libraries and tools were used in this project:
+
+1. Next.js: A React framework for building fast and user-friendly static websites and web applications.
+2. TailwindCss: A CSS Framework for Styling user interfaces.
+3. next/font: For optimizing and loading Inter, a custom Google Font automatically.
+4. Other Libraries: Daisy Ui, React-icons
+
+## Figma Design
+
+The Figma design used as a reference for this project can be found at https://www.figma.com/community/file/1145991068621514311/app-landing-page-finance-bank-money.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
