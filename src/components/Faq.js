@@ -2,7 +2,7 @@ import React from "react";
 
 const FaqItem = ({ bgColor, textColor }) => (
   <div className={`flex flex-col gap-2 px-6 py-6 rounded-lg ${bgColor}`}>
-    <p className={`text-xl font-bold ${textColor}`}>
+    <p className={`text-3xl font-extrabold ${textColor}`}>
       The Best Financial Accounting <br /> App Ever!
     </p>
     <p className={`text-lg ${textColor}`}>
@@ -15,9 +15,11 @@ const FaqItem = ({ bgColor, textColor }) => (
 const Faq = () => {
   return (
     <div className="container mx-auto lg:px-32">
-      <p className="text-primary font-medium text-lg">Faq</p>
-      <p className="text-4xl font-extrabold py-4">Frequently Asked Questions</p>
-      <div className="flex flex-col lg:flex-row justify-between items-center my-10 gap-10">
+      <p className="text-primary uppercase tracking-widest font-medium text-lg">
+        Faq
+      </p>
+      <p className="text-5xl font-black py-4">Frequently Asked Questions</p>
+      <div className="flex flex-col lg:flex-row justify-between items-center my-10 gap-0">
         <div className="flex flex-col gap-5 items-start w-full lg:w-1/2">
           <FaqItem bgColor="bg-primary" textColor="text-white" />
         </div>

@@ -11,10 +11,10 @@ const Features = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center">
         <Image src={subhero} alt="" />
         <div className="flex flex-col gap-5 items-start">
-          <p className="text-primary font-medium text-lg items-start">
+          <p className="text-primary tracking-widest font-medium text-lg items-start uppercase">
             Features
           </p>
-          <p className="text-4xl font-bold items-start">Uifry Premium</p>
+          <h1 className="text-5xl font-black items-start">Uifry Premium</h1>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-3">
               <Image src={budget} alt="" />

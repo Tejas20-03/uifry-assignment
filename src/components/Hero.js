@@ -9,10 +9,10 @@ const Hero = () => {
     <div className="container mx-auto ">
       <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="flex flex-col gap-5">
-          <p className="text-6xl font-extrabold">
+          <h1 className="text-6xl font-black">
             Make The Best Financial Decisions
-          </p>
-          <p>
+          </h1>
+          <p className="text-gray-500 tracking-widest">
             Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
             faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
           </p>

@@ -7,6 +7,12 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontWeight: {
+      black: 1000,
+      semibold: 700,
+      bold: 800,
+      extrabold: 900,
+    },
     container: {
       padding: {
         DEFAULT: "1rem",

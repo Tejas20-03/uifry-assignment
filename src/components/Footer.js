@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const FooterItem = ({ title, links }) => (
   <div className="flex flex-col gap-4 items-start">
-    <p className="text-4xl font-semibold">{title}</p>
+    <p className="text-4xl font-medium">{title}</p>
     {links.map((link, index) => (
-      <p key={index} className="text-xl font-medium">
+      <p key={index} className="text-xl font-light">
         {link}
       </p>
     ))}
@@ -28,8 +28,8 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 container mx-auto py-10">
         <div className="flex flex-col gap-4 items-start">
           <Image className="h-10" src={logo} alt="Logo" />
-          <ContactInfo icon={email} text="help@rownok.com" />
-          <ContactInfo icon={phone} text="+88018763646353" />
+          <ContactInfo icon={email} text="Help@Frybix.Com" />
+          <ContactInfo icon={phone} text="+1234 456 678 89" />
         </div>
         <FooterItem
           title="Links"
@@ -44,8 +44,8 @@ const Footer = () => {
           links={["Take Tour", "Live Chat", "Reviews"]}
         />
         <div className="flex flex-col gap-4 items-start">
-          <p className="text-4xl font-semibold">News Letter</p>
-          <p className="text-xl font-medium">Stay Up To Date</p>
+          <p className="text-4xl font-medium">News Letter</p>
+          <p className="text-xl font-light">Stay Up To Date</p>
           <div className="flex items-start flex-col gap-2">
             <input
               type="text"
